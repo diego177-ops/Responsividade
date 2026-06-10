@@ -1,0 +1,268 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+.banner {
+    background-color: royalblue;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+
+@media(max-width: 768px) {
+    .banner {
+        background-color: royalblue;
+    }
+
+    .banner h1 {
+        font-size: 24px;
+    }
+
+    .logocenter {
+        width: 300px;
+    }
+}
+
+
+/* logo */
+.logo {
+    width: 150px;
+}
+
+.logocenter {
+    width: 500px;
+}
+
+d-block w-100 {
+    width: 100%;
+    height: auto;
+    padding: 20px;
+}
+
+/* destinos */
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 50px;
+}
+
+.col-lg-4 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 500px;
+    padding: 20px;
+    background: #a0a0a0;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    transition: transform 0.3s ease;
+
+}
+
+.hr {
+    border: none;
+    height: 15px;
+    background-color: #000;
+    margin: 20px 0;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+/* pacotes */
+.viagem {
+    background-color: #f8a833;
+    box-shadow: 4px 4px 8px #000000;
+    border: 3px solid black;
+    border-radius: 15px;
+    width: auto;
+    padding: 20px;
+    margin: 20px;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px large;
+}
+
+/* butão */
+.topo {
+    text-align: center;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    position:fixed;
+
+    
+}
+
+.topo:hover {
+    transform: scale(1.05);
+}
+
+.btn{
+    margin: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: royalblue;
+}
+
+.bo{
+    text-decoration: none;
+
+}
+
+/* Contato */
+.containe {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #c0c0c0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.caixa {
+    width: 70%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background: #4223d6;
+    color: white;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-col {
+    flex: 1;
+    min-width: 220px;
+}
+
+.footer-col h3 {
+    color: #f6a93e;
+    margin-bottom: 15px;
+}
+
+.footer-col ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-col li {
+    margin-bottom: 10px;
+}
+
+.footer-col a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-col a:hover {
+    color: #facc15;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-bottom {
+    background: #0f172a;
+    text-align: center;
+    padding: 15px;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+
+/* Modo Escuro */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode .navbar {
+    background-color: #1e1e1e !important;
+}
+
+.dark-mode .card {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.dark-mode .viagem {
+    background-color: #333;
+    color: white;
+}
+
+.dark-mode .containe {
+    background-color: #2c2c2c;
+    color: white;
+}
+
+.dark-mode footer {
+    background-color: #111;
+}
+
+.dark-mode .footer-bottom {
+    background-color: #000;
+}
+
+.dark-mode .hr {
+    background-color: white;
+}
+
+/* Navbar no modo escuro */
+body.dark-mode .navbar {
+    background-color: #121212 !important;
+}
+
+body.dark-mode .nav-link {
+    color: white !important;
+}
+
+body.dark-mode .navbar-toggler {
+    border-color: white;
+}
+
+body.dark-mode .navbar-toggler-icon {
+    filter: invert(1);
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Destino Certo Turismo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img class="logo" src="img/logo.png" alt="">
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+
+                <!-- Menu -->
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#destinos">Destinos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contato">Contato</a>
+                    </li>
+                </ul>
+
+                <!-- Botão do modo escuro -->
+                <button id="btnModo" class="btn btn-dark ms-auto">
+                    🌙 Modo Escuro
+                </button>
+
+            </div>
+        </div>
+    </nav>
+
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+                <img src="img/rota.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+                <img src="img/banner.jpg" class="d-block w-100" alt="...">
+            </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div class="banner">
+        <img class="logocenter" src="img/logo.png" alt="">
+        <br> <br>
+        <h4>Vamos conhecer o Brasil.</h4>
+        <br>
+        <button id="btnCursos" class="btn btn-light">
+            Mostrar/Ocultar Destinos
+        </button>
+    </div>
+    <br>
+    <h1 id="destinos"></b>Destinos<b></h1>
+    <div class="viagem">
+        <h3>Oferecemos pacotes personalizados para destinos nacionais e internacionais, com opções para todos os
+            gostos e orçamentos. Nossos pacotes incluem passagens aéreas, hospedagem, traslados e passeios,
+            garantindo uma experiência completa e sem preocupações para nossos clientes.</h3>
+    </div>
+
+    <br>
+    <hr class="hr"> <br>
+    </div>
+    <div class="container mt-4">
+        <div class="viagem">
+            <div class="row cursos">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-3">
+                        <img class="img" src="img/brotas.jpg" alt="">
+                        <h3>Brotas-SP</h3>
+                        <p>Aventura e Ecoturismo.</p>
+                        <h6>A partir de: <br> <br><b>R$ 894,00</b></h6>
+                        <hr>
+                        <button class="btn">
+                            <a class="bo" href="https://brotas.com.br/" target="_blank">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-3">
+                        <img class="img" src="img/gramado.jpg" alt="">
+                        <h3>Gramado-RS</h3>
+                        <p>Europa do Brasil.</p>
+                        <h6>A partir de: <br> <br><b>R$ 894,00</b></h6>
+                        <hr>
+                        <button class="btn">
+                            <a class="bo" href="https://gramadoturismo-rs.com.br/" target="_blank">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-3">
+                        <img class="img" src="img/rj.jpg" alt="">
+                        <h3>Rio de Janeiro-RJ</h3>
+                        <p>Cidade Maravilhosa.</p>
+                        <h6>A partir de: <br> <br><b>R$ 894,00</b></h6>
+                        <hr>
+                        <button class="btn">
+                            <a class="bo" href="https://www.turismo.rj.gov.br/" target="_blank">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-3">
+                        <img class="img" src="img/foz.jpg" alt="">
+                        <h3>Foz do Iguaçu-PR</h3>
+                        <p>Uma das Sete Maravilhas da Natureza.</p>
+                        <h6>A partir de: <br> <br><b>R$ 894,00</b></h6>
+                        <hr>
+                        <button class="btn">
+                            <a class="bo" href="https://www.destino.foz.br/" target="_blank">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-3">
+                        <img class="img" src="img/porto.jpg" alt="">
+                        <h3>Porto Seguro -BA</h3>
+                        <p>Rica história do Brasil à natureza exuberante</p>
+                        <h6>A partir de: <br> <br><b>R$ 894,00</b></h6>
+                        <hr>
+                        <button class="btn">
+                            <a class="bo"
+                                href="https://omnibees.com/turismo/desenvolvimento-turistico-de-porto-seguro-tecnologias-e-eventos-que-impulsionam-o-destino/#:~:text=Porto%20Seguro%20%C3%A9%20um%20dos,diversidade%20de%20op%C3%A7%C3%B5es%20para%20lazer."
+                                target="_blank">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="card p-3">
+                        <img class="img" src="img/lençois.jpg" alt="">
+                        <h3>Lençóis Maranhenses-MA</h3>
+                        <p>Maior campo de dunas da América do Sul</p>
+                        <h6>A partir de: <br> <br><b>R$ 894,00</b></h6>
+                        <hr>
+                        <button class="btn">
+                            <a class="bo"
+                                href="https://guia.melhoresdestinos.com.br/o-que-fazer-nos-lencois-maranhenses.html"
+                                target="_blank">Saiba Mais</a>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="script.js"></script>
+        <br>
+        <hr class="hr">
+
+    </div>
+
+
+    <button id="home" class="topo">
+        <a href="index.html">Voltar ao Início</a>
+    </button>
+
+    <section class="containe">
+        <h1>Entre em contato</h1>
+        <form>
+            <label for="nome">Nome:</label> <br>
+            <input class="caixa" type="text" id="nome" name="nome" required> <br><br>
+            <label for="email">Email:</label><br>
+            <input class="caixa" type="email" id="email" name="email" required> <br><br>
+            <label for="assunto">Assunto:</label> <br>
+            <input class="caixa" type="text" id="assunto" name="assunto" required> <br> <br>
+            <button class="btn btn-primary" type="submit">Enviar</button>
+
+        </form>
+    </section>
+
+
+    <footer id="contato">
+        <div class="footer-container">
+
+            <div class="footer-col">
+                <h3>Rota Perfeita</h3>
+                <p>
+                    Sua agência de viagens com os melhores destinos,
+                    roteiros e experiências para todos os viajantes.
+                </p>
+            </div>
+
+            <div class="footer-col">
+                <h3>Contato</h3>
+                <ul>
+                    <li>rotaperfeita@gmail.com</li>
+                    <li>(14) 99999-9999</li>
+                </ul>
+            </div>
+
+
+            <div class="footer-col">
+                <h3>Redes Sociais</h3>
+                <div class="social">
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                    <a href="#">TikTok</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Rota Perfeita - Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+
+</html>
